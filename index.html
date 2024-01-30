@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Jankenpon</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="winner-title">Jogadora 1 ganhou!</h1>
+        <div class="scoreboard-box">
+            <span class="player-name">Jogador 1</span>
+            <span class="score" >00</span>
+            <span class="score-separetor">VS</span>
+            <span class="score" >00</span>
+            <span class="player-name">Jogador 2</span>
+        </div>
+    </header>
+
+    <main class="battle-field">
+        <div class="button-move-wrapper">
+            <button class="button-move button-move-stone-one">Pedra</button>
+            <button class="button-move button-move-paper-one">Papel</button>
+            <button class="button-move button-move-scissors-one">Tesoura</button>
+        </div>
+
+        <div class="board">
+            <div class="move-box" id="move-box-one"></div>
+            <span class="move-box-separator">VS</span>
+            <div class="move-box" id="move-box-two"></div>
+        </div>
+
+        <div class="button-move-wrapper">
+            <button class="button-move button-move-stone-two">Pedra</button>
+            <button class="button-move button-move-paper-two">Papel</button>
+            <button class="button-move button-move-scissors-two">Tesoura</button>
+        </div>
+    </main>
+
+    <footer class="config-box">
+        <button class="button-move">Iniciar</button>
+        <button class="button-move">Resetar</button>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
