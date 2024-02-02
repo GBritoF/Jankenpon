@@ -87,6 +87,7 @@ body {
     height: 45%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 16px;
     padding: 0 2%;
     box-sizing: border-box;
@@ -155,6 +156,18 @@ body {
     display: flex;
     gap: 100px;
     margin-top: 22px;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.play-game {
+    background-color: red;
+}
+
+.play-game:hover {
+    background-color: orangered;
 }
 
 @media screen and (max-width: 720px) {

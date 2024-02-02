@@ -9,21 +9,21 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="winner-title">Jogadora 1 ganhou!</h1>
+        <h1 class="winner-title">Empate</h1>
         <div class="scoreboard-box">
             <span class="player-name">Jogador 1</span>
-            <span class="score" >00</span>
+            <span class="score score-player-one" >00</span>
             <span class="score-separetor">VS</span>
-            <span class="score" >00</span>
+            <span class="score score-player-two" >00</span>
             <span class="player-name">Jogador 2</span>
         </div>
     </header>
 
     <main class="battle-field">
         <div class="button-move-wrapper">
-            <button class="button-move button-move-stone-one">Pedra</button>
-            <button class="button-move button-move-paper-one">Papel</button>
-            <button class="button-move button-move-scissors-one">Tesoura</button>
+            <button class="button-move button-move-stone-one disabled">Pedra</button>
+            <button class="button-move button-move-paper-one disabled">Papel</button>
+            <button class="button-move button-move-scissors-one disabled">Tesoura</button>
         </div>
 
         <div class="board">
@@ -33,15 +33,15 @@
         </div>
 
         <div class="button-move-wrapper">
-            <button class="button-move button-move-stone-two">Pedra</button>
-            <button class="button-move button-move-paper-two">Papel</button>
-            <button class="button-move button-move-scissors-two">Tesoura</button>
+            <button class="button-move button-move-stone-two disabled">Pedra</button>
+            <button class="button-move button-move-paper-two disabled">Papel</button>
+            <button class="button-move button-move-scissors-two disabled">Tesoura</button>
         </div>
     </main>
 
     <footer class="config-box">
-        <button class="button-move">Iniciar</button>
-        <button class="button-move">Resetar</button>
+        <button class="button-move button-move-play">Iniciar</button>
+        <button class="button-move button-move-reset">Resetar</button>
     </footer>
     <script src="main.js"></script>
 </body>
